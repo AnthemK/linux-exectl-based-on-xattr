@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T12:57:01.488Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="S0ClrGgh61XwCyBhVuTB" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-02T12:58:20.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="k8TBiJ2rKZG_x-ww50JH" version="18.2.0" type="github">
   <diagram name="Page-1" id="42789a77-a242-8287-6e28-9cd8cfd52e62">
     <mxGraphModel dx="1560" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry x="910" y="270" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nDp9_FoU3aF0ZBxoCtjC-24" value="verifity&amp;nbsp; 此文件可能具有威胁，但暂时被信任。允许执行" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="70" y="420" width="150" height="110" as="geometry" />
+          <mxGeometry x="70" y="420" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="nDp9_FoU3aF0ZBxoCtjC-27" value="不具有security.kylin 代表不可能作为执行文件具有威胁的文件（比如原始文件，空文件等）" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="30" width="210" height="120" as="geometry" />
@@ -28,12 +28,9 @@
             <mxPoint x="610" y="310" as="targetPoint" />
             <Array as="points">
               <mxPoint x="340" y="260" />
-              <mxPoint x="370" y="170" />
+              <mxPoint x="400" y="190" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="nDp9_FoU3aF0ZBxoCtjC-30" value="List Item" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="200" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nDp9_FoU3aF0ZBxoCtjC-31" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nDp9_FoU3aF0ZBxoCtjC-2" target="nDp9_FoU3aF0ZBxoCtjC-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -72,6 +69,34 @@
         </mxCell>
         <mxCell id="nDp9_FoU3aF0ZBxoCtjC-37" value="root权限下执行chkylinxattr程序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="455" y="430" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDp9_FoU3aF0ZBxoCtjC-38" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nDp9_FoU3aF0ZBxoCtjC-3" target="nDp9_FoU3aF0ZBxoCtjC-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="230" as="sourcePoint" />
+            <mxPoint x="610" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDp9_FoU3aF0ZBxoCtjC-39" value="root权限下执行chkylinxattr程序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="220" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nDp9_FoU3aF0ZBxoCtjC-40" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nDp9_FoU3aF0ZBxoCtjC-1" target="nDp9_FoU3aF0ZBxoCtjC-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="230" as="sourcePoint" />
+            <mxPoint x="610" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="230" />
+              <mxPoint x="390" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDp9_FoU3aF0ZBxoCtjC-41" value="root权限下执行chkylinxattr程序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="230" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nDp9_FoU3aF0ZBxoCtjC-42" value="root权限下执行chkylinxattr程序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="170" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
